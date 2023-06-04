@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Swagger & API Generation 
 Install
+- npm install
 - npm i swagger-typescript-api (https://github.com/acacode/swagger-typescript-api)
 Run
 - npx swagger-typescript-api -p "https://localhost:5000/swagger/v1/swagger.json" -o ./src -n newman-api.ts
