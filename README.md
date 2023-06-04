@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Node
+- Tested v14.20.1
+
+# Swagger & API Generation 
+Install
+- npm i swagger-typescript-api (https://github.com/acacode/swagger-typescript-api)
+Run
+- npx swagger-typescript-api -p "https://localhost:5000/swagger/v1/swagger.json" -o ./src -n newman-api.ts
+
+## Additional Packages
+- npm i --save chart.js react-chartjs-2 (https://react-chartjs-2.js.org/)
+- npm i react-query (https://tanstack.com/query/latest/docs/react/overview)
+- npm i react-bootstrap bootstrap
+- npm i react-select bootstrap
+
 ## Available Scripts
 
 In the project directory, you can run:
